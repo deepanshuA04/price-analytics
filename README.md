@@ -85,8 +85,12 @@ written — tracked in [Build order](#build-order).
 
 Every load checks: nulls in required columns, price within a plausible range, freshness
 (max collection date is today), row-count drift vs. the trailing median (>30% swing flags),
-duplicate natural keys, and referential integrity to the dimension tables. A failing check
-fails the GitHub Actions run. Not yet implemented — tracked in [Build order](#build-order).
+duplicate natural keys, and referential integrity to the dimension tables
+([`src/price_analytics/quality/checks.py`](src/price_analytics/quality/checks.py)). A
+failing check raises `PipelineFailure`, which fails the process (and so the GitHub Actions
+run) loudly instead of silently loading bad data — proven in
+[`tests/test_pipeline.py`](tests/test_pipeline.py) by seeding an out-of-range price and
+asserting the run fails and `run_log` records it.
 
 ## Collection
 
@@ -117,8 +121,8 @@ Requires Python 3.12 (pinned in `pyproject.toml`) and [uv](https://docs.astral.s
 
 1. [x] Scaffold + CI skeleton + data source/ToS decision
 2. [x] Collector: polite fetching, raw layer, resumable runs, parser unit tests
-3. [ ] Warehouse: star schema, idempotent upsert load, duplicate-load test
-4. [ ] Data-quality gates + `run_log`, proven to fail the run on seeded bad data
+3. [x] Warehouse: star schema, idempotent upsert load, duplicate-load test
+4. [x] Data-quality gates + `run_log`, proven to fail the run on seeded bad data
 5. [ ] GitHub Actions daily cron
 6. [ ] Analytical SQL views + tests against a seeded fixture DB
 7. [ ] Power BI model, 3-page dashboard
