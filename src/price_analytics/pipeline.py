@@ -12,6 +12,7 @@ from price_analytics.collector.run import collect
 from price_analytics.config import load_settings
 from price_analytics.quality.checks import CheckResult, run_all_checks
 from price_analytics.warehouse.db import DEFAULT_DB_PATH, connect
+from price_analytics.warehouse.export import EXPORT_DIR, export_views_to_csv
 from price_analytics.warehouse.loader import load_day
 from price_analytics.warehouse.migrate import migrate
 from price_analytics.warehouse.views import apply_views
@@ -38,12 +39,15 @@ def run_pipeline(
     run_date: date | None = None,
     items: list[CollectedItem] | None = None,
     db_path: Path = DEFAULT_DB_PATH,
+    export_dir: Path = EXPORT_DIR,
 ) -> RunSummary:
     """Collect -> load -> quality-gate one day, and record the outcome in run_log.
 
     `items` lets callers (tests, or a re-run against already-fetched raw data)
     skip live collection; `db_path` lets tests point at a throwaway database
-    instead of the real warehouse file.
+    instead of the real warehouse file. The dashboard CSV export runs whether
+    the checks pass or fail, so the status tile can show a failed run instead
+    of just going stale.
     """
     run_date = run_date or date.today()
     conn = connect(db_path)
@@ -68,6 +72,7 @@ def run_pipeline(
             checks=[],
             status="failed",
         )
+        export_views_to_csv(conn, export_dir)
         conn.close()
         raise
 
@@ -82,6 +87,7 @@ def run_pipeline(
         checks=checks,
         status=status,
     )
+    export_views_to_csv(conn, export_dir)
     conn.close()
 
     if checks_failed:

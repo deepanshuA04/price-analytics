@@ -98,6 +98,15 @@ caveats. [`tests/test_views.py`](tests/test_views.py) loads a small fixture with
 chosen so every metric can be checked against a hand-computed expected value, not just a
 row count.
 
+## Dashboard
+
+Power BI has no native SQLite connector, so the pipeline exports the four dashboard-facing
+views to CSV under `powerbi/data/` on every run
+([`export.py`](src/price_analytics/warehouse/export.py)) instead of requiring an ODBC
+driver install. Report authoring — the actual 3-page `.pbix` — is a manual step in Power BI
+Desktop with no scriptable equivalent; see [`powerbi/README.md`](powerbi/README.md) for the
+full build guide (data import, page-by-page visual layout, refresh instructions).
+
 ## Data-quality gates
 
 Every load checks: nulls in required columns, price within a plausible range, freshness
@@ -157,7 +166,9 @@ Requires Python 3.12 (pinned in `pyproject.toml`) and [uv](https://docs.astral.s
 4. [x] Data-quality gates + `run_log`, proven to fail the run on seeded bad data
 5. [x] GitHub Actions daily cron
 6. [x] Analytical SQL views + tests against a seeded fixture DB
-7. [ ] Power BI model, 3-page dashboard
+7. [ ] Power BI model, 3-page dashboard — data export is done (see
+       [`powerbi/README.md`](powerbi/README.md)); report authoring itself is a manual,
+       GUI-only step and is not yet done
 8. [ ] Findings write-up + screenshots + measured numbers
 
 ## Results

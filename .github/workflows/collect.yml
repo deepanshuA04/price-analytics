@@ -32,7 +32,7 @@ jobs:
         run: |
           git config user.name "price-analytics-bot"
           git config user.email "actions@users.noreply.github.com"
-          git add raw/ warehouse/
+          git add raw/ warehouse/ powerbi/
           if git diff --cached --quiet; then
             echo "nothing new to commit"
           else
