@@ -115,8 +115,8 @@ Requires Python 3.12 (pinned in `pyproject.toml`) and [uv](https://docs.astral.s
 
 ## Build order
 
-1. [x] Scaffold + CI skeleton + data source/ToS decision (this commit)
-2. [ ] Collector: polite fetching, raw layer, resumable runs, parser unit tests
+1. [x] Scaffold + CI skeleton + data source/ToS decision
+2. [x] Collector: polite fetching, raw layer, resumable runs, parser unit tests
 3. [ ] Warehouse: star schema, idempotent upsert load, duplicate-load test
 4. [ ] Data-quality gates + `run_log`, proven to fail the run on seeded bad data
 5. [ ] GitHub Actions daily cron
@@ -126,9 +126,13 @@ Requires Python 3.12 (pinned in `pyproject.toml`) and [uv](https://docs.astral.s
 
 ## Results
 
-Not yet available — the pipeline has no collection history yet. This section will report
-the actual row counts, category coverage, load reliability (from `run_log`), and repricing
-shortlist size once there's a real collection window to measure.
+Not yet available in full — the pipeline has no collection history in a warehouse yet
+(that's the next milestone). What's confirmed so far: the collector's first live run
+(2026-08-11) pulled **362 products across the 6 chosen categories** (mystery, historical
+fiction, sequential art, fiction, nonfiction, young adult), and a same-day rerun served
+all 362 from the raw layer with zero re-fetches. Load reliability, moving averages, and
+the repricing shortlist need the warehouse and a real collection window, so those numbers
+land in later commits.
 
 ## Findings
 
