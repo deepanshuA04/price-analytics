@@ -104,8 +104,23 @@ asserting the run fails and `run_log` records it.
 ## GitHub Actions
 
 - `ci.yml` — lint (ruff) + test (pytest) on every push.
-- A scheduled collection workflow will be added once the collector and warehouse are
-  built (see [Build order](#build-order)); it runs on a daily cron, not on every push.
+- `collect.yml` — runs the pipeline (collect + load + quality gates) once a day on a cron
+  schedule, plus `workflow_dispatch` for manual runs. Neither runs on every push.
+
+**Warehouse storage decision:** the SQLite file (`warehouse/price_analytics.db`) is
+**committed to the repo**, not published as a workflow artifact or release asset. Artifacts
+expire (GitHub's default retention is 90 days, which would silently truncate the collection
+history this whole project is measuring), and Power BI Desktop needs a local file path to
+connect to — committing means `git pull` always gets the latest data with zero extra setup.
+The tradeoff: every daily commit rewrites a binary file, so the repo grows without git's
+usual delta-compression benefit. At this project's scale (~360 SKUs/day, well under 1 MB of
+new fact data per day) that's a non-issue over a portfolio-length collection window; it
+would need reconsidering for a much larger SKU count or a multi-year timeline.
+
+The daily job commits the day's raw layer and warehouse changes even when the quality gates
+fail (`if: always()`), specifically so a bad day still shows up honestly in `run_log` instead
+of quietly vanishing from the reliability number — the *job* itself still shows red in the
+Actions tab, which is the "fail loudly" signal, not silence.
 
 ## Local development
 
@@ -123,7 +138,7 @@ Requires Python 3.12 (pinned in `pyproject.toml`) and [uv](https://docs.astral.s
 2. [x] Collector: polite fetching, raw layer, resumable runs, parser unit tests
 3. [x] Warehouse: star schema, idempotent upsert load, duplicate-load test
 4. [x] Data-quality gates + `run_log`, proven to fail the run on seeded bad data
-5. [ ] GitHub Actions daily cron
+5. [x] GitHub Actions daily cron
 6. [ ] Analytical SQL views + tests against a seeded fixture DB
 7. [ ] Power BI model, 3-page dashboard
 8. [ ] Findings write-up + screenshots + measured numbers
