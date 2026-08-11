@@ -7,6 +7,7 @@ import pytest
 from price_analytics.collector.records import CollectedItem, PriceObservation, ProductRecord
 from price_analytics.warehouse.db import connect
 from price_analytics.warehouse.migrate import migrate
+from price_analytics.warehouse.views import apply_views
 
 
 @pytest.fixture
@@ -18,6 +19,7 @@ def db_path(tmp_path):
 def conn(db_path):
     connection = connect(db_path)
     migrate(connection)
+    apply_views(connection)
     yield connection
     connection.close()
 

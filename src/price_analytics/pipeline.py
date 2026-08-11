@@ -14,6 +14,7 @@ from price_analytics.quality.checks import CheckResult, run_all_checks
 from price_analytics.warehouse.db import DEFAULT_DB_PATH, connect
 from price_analytics.warehouse.loader import load_day
 from price_analytics.warehouse.migrate import migrate
+from price_analytics.warehouse.views import apply_views
 
 logger = logging.getLogger(__name__)
 
@@ -47,6 +48,7 @@ def run_pipeline(
     run_date = run_date or date.today()
     conn = connect(db_path)
     migrate(conn)
+    apply_views(conn)
 
     started_at = datetime.now(UTC)
     run_id = _start_run_log(conn, run_date, started_at)

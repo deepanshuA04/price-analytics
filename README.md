@@ -77,9 +77,26 @@ SQLite, star schema:
 
 Versioned views in [`sql/views/`](sql/views/) are the single definition of every metric the
 dashboard shows — Power BI reads views, not raw tables, and DAX does presentation only.
-Covers 7/30-day moving average price, day-over-day and week-over-week change, category
-rank/percentile, discount depth, category median, and 30-day price volatility. Not yet
-written — tracked in [Build order](#build-order).
+Applied fresh on every pipeline run by
+[`warehouse/views.py`](src/price_analytics/warehouse/views.py) (views hold no data, so
+there's no cost to always re-creating them from what's checked in). Nine views:
+
+| View | Answers | Grain |
+| --- | --- | --- |
+| `v_price_moving_avg` | 7-/30-day moving average price (`AVG() OVER ROWS BETWEEN`) | sku × date |
+| `v_price_change` | day-over-day / week-over-week change (`LAG`) | sku × date |
+| `v_category_rank` | price rank + percentile within category (`RANK`, `PERCENT_RANK`) | sku × date |
+| `v_discount_depth` | discount depth vs. list price + premium vs. category median (rank-based median CTE) | sku × date |
+| `v_price_volatility` | 30-day trailing sample stddev of price | sku × date |
+| `v_sku_daily_metrics` | the five views above joined into one wide table | sku × date |
+| `v_category_overview` | category daily price index + spread | category × date |
+| `v_repricing_shortlist` | SKUs >15% above category median, latest day only | sku (latest day) |
+| `v_run_log_status` | dashboard status tile: latest run + reliability % | single row |
+
+Every view has a comment block in its `.sql` file stating what it answers, its grain, and its
+caveats. [`tests/test_views.py`](tests/test_views.py) loads a small fixture with prices
+chosen so every metric can be checked against a hand-computed expected value, not just a
+row count.
 
 ## Data-quality gates
 
@@ -139,7 +156,7 @@ Requires Python 3.12 (pinned in `pyproject.toml`) and [uv](https://docs.astral.s
 3. [x] Warehouse: star schema, idempotent upsert load, duplicate-load test
 4. [x] Data-quality gates + `run_log`, proven to fail the run on seeded bad data
 5. [x] GitHub Actions daily cron
-6. [ ] Analytical SQL views + tests against a seeded fixture DB
+6. [x] Analytical SQL views + tests against a seeded fixture DB
 7. [ ] Power BI model, 3-page dashboard
 8. [ ] Findings write-up + screenshots + measured numbers
 
