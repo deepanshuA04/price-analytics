@@ -9,6 +9,7 @@ dependencies = [
     "beautifulsoup4>=4.13",
     "lxml>=5.3",
     "pandas>=2.2",
+    "python-dotenv>=1.0",
 ]
 
 [dependency-groups]
