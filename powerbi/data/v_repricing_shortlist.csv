@@ -1,140 +1,137 @@
 sku,collection_date,title,category_name,current_price,category_median_price,premium_to_category_median,category_price_rank,category_sku_count
-49b24c6a41b82bd2,2026-10-17,Boar Island (Anna Pigeon #19),Mystery,59.77,25.345,1.3583,1,32
-b0913e67d38d5ed5,2026-10-17,The No. 1 Ladies' Detective Agency (No. 1 Ladies' Detective Agency #1),Mystery,57.87,25.345,1.2833,2,32
-e7fe3bf2768602cf,2026-10-17,Murder at the 42nd Street Library (Raymond Ambler #1),Mystery,57.15,25.345,1.2549,3,32
-3bc89353f7e3a3cc,2026-10-17,The Last Mile (Amos Decker #2),Mystery,56.16,25.345,1.2158,4,32
-5ee94540d0749ea0,2026-10-17,The Past Never Ends,Mystery,54.24,25.345,1.1401,5,32
-f684a82adc49f011,2026-10-17,1st to Die (Women's Murder Club #1),Mystery,53.93,25.345,1.1278,6,32
-20789fb17b423c4c,2026-10-17,The Bachelor Girl's Guide to Murder (Herringford and Watts Mysteries #1),Mystery,51.27,25.345,1.0229,7,32
-4416c474713ec1f5,2026-10-17,A Time of Torment (Charlie Parker #14),Mystery,49.32,25.345,0.9459,8,32
-e00eb4fd7b871a48,2026-10-17,Sharp Objects,Mystery,47.88,25.345,0.8891,9,32
-60376aa71be66083,2026-10-17,The Man Who Mistook His Wife for a Hat and Other Clinical Tales,Nonfiction,60.62,32.84,0.8459,1,110
-04e3de7ac35ec5cd,2026-10-17,Between the World and Me,Nonfiction,59.6,32.84,0.8149,2,110
-54fc03f1e1d355db,2026-10-17,The Diary of a Young Girl,Nonfiction,59.44,32.84,0.81,3,110
-b6d3f4f4ee1f6069,2026-10-17,H is for Hawk,Nonfiction,57.39,32.84,0.7476,4,110
-7980fa06f2b704d8,2026-10-17,"Miracles from Heaven: A Little Girl, Her Journey to Heaven, and Her Amazing Story of Healing",Nonfiction,57.21,32.84,0.7421,5,110
-a30b270e25489e5c,2026-10-17,The Electric Pencil: Drawings from Inside State Hospital No. 3,Nonfiction,57.17,32.84,0.7409,6,110
-da0349a87c8caa2f,2026-10-17,Are We Smart Enough to Know How Smart Animals Are?,Nonfiction,56.67,32.84,0.7256,7,110
-cf1aa2fc02a7d1e0,2026-10-17,Abstract City,Nonfiction,56.36,32.84,0.7162,8,110
-3a6fb983e2554023,2026-10-17,A Flight of Arrows (The Pathfinders #2),Historical Fiction,55.73,32.54,0.7127,1,26
-b830685072fa871f,2026-10-17,"Unstuffed: Decluttering Your Home, Mind, and Soul",Nonfiction,55.49,32.84,0.6897,9,110
-90fa61229261140a,2026-10-17,Tipping the Velvet,Historical Fiction,54.82,32.54,0.6847,2,26
-311c0dd0e354a33e,2026-10-17,Everydata: The Misinformation Hidden in the Little Data You Consume Every Day,Nonfiction,55.32,32.84,0.6845,10,110
-15ebd83e53d0391b,2026-10-17,Being Mortal: Medicine and What Matters in the End,Nonfiction,55.01,32.84,0.6751,11,110
-a7c3f1010d64799a,2026-10-17,Into the Wild,Nonfiction,54.98,32.84,0.6742,12,110
-476c7972e9b41891,2026-10-17,The Last Painting of Sara de Vos,Historical Fiction,53.87,32.54,0.6555,3,26
-dd003e904727281a,2026-10-17,The Exiled,Mystery,41.84,25.345,0.6508,10,32
-0268f149d014b389,2026-10-17,Travels with Charley: In Search of America,Nonfiction,53.88,32.84,0.6407,13,110
-afa829857f82f99e,2026-10-17,Hamilton: The Revolution,Nonfiction,53.1,32.84,0.6169,14,110
-fd2337c1b73b686e,2026-10-17,Brave Enough,Nonfiction,52.87,32.84,0.6099,15,110
-2173a2ce35f6ace1,2026-10-17,"Trespassing Across America: One Man's Epic, Never-Done-Before (and Sort of Illegal) Hike Across the Heartland",Nonfiction,52.78,32.84,0.6072,16,110
-4a0a276409968a73,2026-10-17,The Guernsey Literary and Potato Peel Pie Society,Historical Fiction,52.07,32.54,0.6002,4,26
-437d8dea9272d0a9,2026-10-17,The Improbability of Love,Fiction,61.14,38.3,0.5963,1,65
-a01f6d368ef64dc5,2026-10-17,"Eaternity: More than 150 Deliciously Easy Vegan Recipes for a Long, Healthy, Satisfied, Joyful Life",Nonfiction,52.24,32.84,0.5907,17,110
-52aa3d79b1cee455,2026-10-17,Very Good Lives: The Fringe Benefits of Failure and the Importance of Imagination,Nonfiction,52.06,32.84,0.5853,18,110
-f08667e4c0458f37,2026-10-17,Spilled Milk: Based on a True Story,Nonfiction,52.05,32.84,0.585,19,110
-c7b5183f4d1d4efe,2026-10-17,The Murder of Roger Ackroyd (Hercule Poirot #4),Mystery,39.79,25.345,0.5699,11,32
-06f6a57a6d532844,2026-10-17,Kitchens of the Great Midwest,Fiction,60.0,38.3,0.5666,2,65
-27c5968fe43cc06e,2026-10-17,El Deafo,Sequential Art,58.1,37.09,0.5665,1,75
-bff270fe9c86a5a9,2026-10-17,Miller's Valley,Fiction,59.93,38.3,0.5648,3,65
-94bb629a3f6dd00b,2026-10-17,Digital Fortress,Fiction,58.88,38.3,0.5373,4,65
-df6a7c43faa6732b,2026-10-17,Future Shock (Future Shock #1),Young Adult,56.99,37.129999999999995,0.5349,1,54
-830fb3967c74866d,2026-10-17,Shtum,Fiction,58.56,38.3,0.529,5,65
-df56868afd166557,2026-10-17,"Eat, Pray, Love",Nonfiction,50.17,32.84,0.5277,20,110
-6958de044cb28a84,2026-10-17,In the Woods (Dublin Murder Squad #1),Mystery,38.66,25.345,0.5254,12,32
-759ee7d059b1beb8,2026-10-17,Why Save the Bankers?: And Other Essays on Our Economic and Political Crisis,Nonfiction,49.87,32.84,0.5186,21,110
-41164b8ac02a2c42,2026-10-17,Aristotle and Dante Discover the Secrets of the Universe (Aristotle and Dante Discover the Secrets of the Universe #1),Young Adult,55.96,37.129999999999995,0.5071,2,54
-fe0f34ebed689381,2026-10-17,In Cold Blood,Nonfiction,49.37,32.84,0.5033,22,110
-ad2887ce04583910,2026-10-17,Don't Get Caught,Young Adult,55.72,37.129999999999995,0.5007,3,54
-91eb9605998a7c03,2026-10-17,"The Sandman, Vol. 3: Dream Country (The Sandman (volumes) #3)",Sequential Art,55.37,37.09,0.4929,2,75
-bfd5e1701c862ac3,2026-10-17,"Ajin: Demi-Human, Volume 1 (Ajin: Demi-Human #1)",Sequential Art,55.25,37.09,0.4896,3,75
-eb0fe24bbc845ecc,2026-10-17,"Giant Days, Vol. 1 (Giant Days #1-4)",Sequential Art,55.13,37.09,0.4864,4,75
-e77594ece9b9d1fe,2026-10-17,The Alien Club,Young Adult,55.15,37.129999999999995,0.4853,4,54
-a80f66b254fe9eb3,2026-10-17,Brain on Fire: My Month of Madness,Nonfiction,48.73,32.84,0.4839,23,110
-5faefdc861684eb1,2026-10-17,"The Sandman, Vol. 1: Preludes and Nocturnes (The Sandman (volumes) #1)",Sequential Art,54.6,37.09,0.4721,5,75
-db84624b151cbe06,2026-10-17,No Love Allowed (Dodge Cove #1),Young Adult,54.27,37.129999999999995,0.4616,5,54
-1c89ae5bb804e4de,2026-10-17,I am a Hero Omnibus Volume 1,Sequential Art,54.14,37.09,0.4597,6,75
-1c0a38899c82b60a,2026-10-17,"Death Note, Vol. 5: Whiteout (Death Note #5)",Sequential Art,54.11,37.09,0.4589,7,75
-07e6810fd3236bda,2026-10-17,Last One Home (New Beginnings #1),Fiction,55.75,38.3,0.4556,6,65
-4c8b7540409da4ac,2026-10-17,Swell: A Year of Waves,Nonfiction,47.64,32.84,0.4507,24,110
-c6ca293d4810e0d5,2026-10-17,The Dinner Party,Fiction,55.47,38.3,0.4483,7,65
-de4b403cb629a29f,2026-10-17,Glory over Everything: Beyond The Kitchen House,Historical Fiction,46.73,32.54,0.4361,5,26
-ff6bb30dd0c482a6,2026-10-17,The Husband's Secret,Fiction,54.97,38.3,0.4352,8,65
-92275cedf6d8ee15,2026-10-17,"We Are Robin, Vol. 1: The Vigilante Business (We Are Robin #1)",Sequential Art,53.21,37.09,0.4346,8,75
-97b8f130d32e9f4e,2026-10-17,Girl Online On Tour (Girl Online #2),Young Adult,53.14,37.129999999999995,0.4312,6,54
-276dc716b1da8899,2026-10-17,"The Sandman, Vol. 2: The Doll's House (The Sandman (volumes) #2)",Sequential Art,53.0,37.09,0.429,9,75
-09b6cc87e62c2c58,2026-10-17,Danganronpa Volume 1,Sequential Art,52.87,37.09,0.4255,10,75
-edb3097e71330040,2026-10-17,Finders Keepers (Bill Hodges Trilogy #2),Fiction,54.56,38.3,0.4245,9,65
-41fc5dce044f16f5,2026-10-17,Girl in the Blue Coat,Historical Fiction,46.33,32.54,0.4238,6,26
-c039f5aceb093537,2026-10-17,Most Wanted,Mystery,35.99,25.345,0.42,13,32
-a10c7515834240f3,2026-10-17,Lowriders to the Center of the Earth (Lowriders in Space #2),Sequential Art,52.6,37.09,0.4182,11,75
-3b1c02bac2a429e6,2026-10-17,Scott Pilgrim's Precious Little Life (Scott Pilgrim #1),Sequential Art,52.55,37.09,0.4168,12,75
-e2e7b683b4c15b7d,2026-10-17,Catching Jordan (Hundred Oaks),Young Adult,52.11,37.129999999999995,0.4034,7,54
-16e843e6b853cc2f,2026-10-17,Lady Renegades (Rebel Belle #3),Young Adult,51.81,37.129999999999995,0.3954,8,54
-d01ac97e2b8947c2,2026-10-17,The Murder That Never Was (Forensic Instincts #5),Fiction,53.14,38.3,0.3875,10,65
-c82a3e358c773c73,2026-10-17,"Rat Queens, Vol. 3: Demons (Rat Queens (Collected Editions) #11-15)",Sequential Art,51.4,37.09,0.3858,13,75
-4e78f06160b717ac,2026-10-17,Finding God in the Ruins: How God Redeems Pain,Nonfiction,45.37,32.84,0.3815,25,110
-8d455c7539795d2a,2026-10-17,"We Love You, Charlie Freeman",Fiction,52.85,38.3,0.3799,11,65
-4f283dfcbeccc0d4,2026-10-17,The High Mountains of Portugal,Fiction,52.52,38.3,0.3713,12,65
-746029796363aa51,2026-10-17,Nightstruck: A Novel,Young Adult,50.89,37.129999999999995,0.3706,9,54
-8fff1084aa085a13,2026-10-17,"Fruits Basket, Vol. 4 (Fruits Basket #4)",Sequential Art,50.3,37.09,0.3562,14,75
-d170b5a0da46380e,2026-10-17,"Unseen City: The Majesty of Pigeons, the Discreet Charm of Snails & Other Wonders of the Urban Wilderness",Nonfiction,44.52,32.84,0.3557,26,110
-2e40333991f56f45,2026-10-17,For the Love: Fighting for Grace in a World of Impossible Standards,Nonfiction,44.46,32.84,0.3538,27,110
-c5f91eb481427dc5,2026-10-17,When I'm Gone,Fiction,51.53,38.3,0.3454,13,65
-0651062381f0636a,2026-10-17,The Regional Office Is Under Attack!,Fiction,51.31,38.3,0.3397,14,65
-c65c25d990fc7025,2026-10-17,"Exit, Pursued by a Bear",Young Adult,49.6,37.129999999999995,0.3358,10,54
-6514add13c82b115,2026-10-17,The Tumor,Nonfiction,43.69,32.84,0.3304,28,110
-2a1b3d967cda1da2,2026-10-17,Tell the Wolves I'm Home,Young Adult,49.35,37.129999999999995,0.3291,11,54
-8ec14b1576cb7cb5,2026-10-17,The Power of Now: A Guide to Spiritual Enlightenment,Nonfiction,43.57,32.84,0.3267,29,110
-081305e6df719dff,2026-10-17,The Testament of Mary,Fiction,50.67,38.3,0.323,15,65
-1246e4ffeb5ac4ea,2026-10-17,Let's Pretend This Never Happened: A Mostly True Memoir,Nonfiction,43.38,32.84,0.321,30,110
-ffdc825785c0ede8,2026-10-17,Art Ops Vol. 1,Sequential Art,48.9,37.09,0.3184,15,75
-ba54932df84e8cea,2026-10-17,Library of Souls (Miss Peregrine’s Peculiar Children #3),Young Adult,48.94,37.129999999999995,0.3181,12,54
-89cad3f37c9ce226,2026-10-17,"Rise of the Rocket Girls: The Women Who Propelled Us, from Missiles to the Moon to Mars",Nonfiction,43.24,32.84,0.3167,31,110
-6957f44c3847a760,2026-10-17,Soumission,Fiction,50.18,38.3,0.3102,16,65
-c6a29d6df8de968c,2026-10-17,Furiously Happy: A Funny Book About Horrible Things,Nonfiction,43.02,32.84,0.31,32,110
-aba2db9afb1469c7,2026-10-17,Until Friday Night (The Field Party #1),Young Adult,48.18,37.129999999999995,0.2976,13,54
-87b0615b6e1f4d7b,2026-10-17,Spark Joy: An Illustrated Master Class on the Art of Organizing and Tidying Up,Nonfiction,42.61,32.84,0.2975,33,110
-53a3d11bb568cc8b,2026-10-17,"Saga, Volume 5 (Saga (Collected Editions) #5)",Sequential Art,48.08,37.09,0.2963,16,75
-460089f796fb3f82,2026-10-17,"Lumberjanes, Vol. 2: Friendship to the Max (Lumberjanes #5-8)",Sequential Art,47.88,37.09,0.2909,17,75
-45045146dbf7b009,2026-10-17,Isla and the Happily Ever After (Anna and the French Kiss #3),Young Adult,47.91,37.129999999999995,0.2903,14,54
-8ceb5c6aed2c5f8b,2026-10-17,While You Were Mine,Historical Fiction,41.75,32.54,0.283,7,26
-85b2176b3b194030,2026-10-17,Robin War,Sequential Art,47.46,37.09,0.2796,18,75
-c9782ad2a0ed9331,2026-10-17,Crazy Rich Asians (Crazy Rich Asians #1),Fiction,49.0,38.3,0.2794,17,65
-384c7d41d5ffe9d1,2026-10-17,"Girl, Interrupted",Nonfiction,42.0,32.84,0.2789,34,110
-a9d7b75461084a26,2026-10-17,11/22/63,Fiction,48.81,38.3,0.2744,18,65
-b12b89017878a60d,2026-10-17,Private Paris (Private #10),Fiction,48.76,38.3,0.2731,19,65
-dac4b5847454fd9b,2026-10-17,Memoirs of a Geisha,Fiction,48.66,38.3,0.2705,20,65
-3cdca3b4a93980f5,2026-10-17,"Rat Queens, Vol. 1: Sass & Sorcery (Rat Queens (Collected Editions) #1-5)",Sequential Art,47.11,37.09,0.2702,19,75
-15f415d436888b2d,2026-10-17,"Black Butler, Vol. 1 (Black Butler #1)",Sequential Art,46.93,37.09,0.2653,20,75
-bbf1ea50be8008ab,2026-10-17,I Will Find You,Nonfiction,41.5,32.84,0.2637,35,110
-11809b1d323b3057,2026-10-17,orange: The Complete Collection 1 (orange: The Complete Collection #1),Sequential Art,46.61,37.09,0.2567,21,75
-4c28def39d850cdf,2026-10-17,Worlds Elsewhere: Journeys Around Shakespeare’s Globe,Nonfiction,40.98,32.84,0.2479,36,110
-d4a29356fc992879,2026-10-17,It's Never Too Late to Begin Again: Discovering Creativity and Meaning at Midlife and Beyond,Nonfiction,40.93,32.84,0.2463,37,110
-ad84f18659e6bfe2,2026-10-17,The Firm,Fiction,47.52,38.3,0.2407,21,65
-e75f3ae1da1cc652,2026-10-17,"Will Grayson, Will Grayson (Will Grayson, Will Grayson)",Young Adult,46.04,37.129999999999995,0.24,15,54
-ce1ae197ada2aec4,2026-10-17,The Silent Sister (Riley MacPherson #1),Fiction,47.39,38.3,0.2373,22,65
-cedf82b5086e4691,2026-10-17,The Natural History of Us (The Fine Art of Pretending #2),Young Adult,45.86,37.129999999999995,0.2351,16,54
-34c0d7c4ee5650af,2026-10-17,The Year of Magical Thinking,Nonfiction,40.55,32.84,0.2348,38,110
-a0dd11f6abc421ec,2026-10-17,Jurassic Park (Jurassic Park #1),Fiction,47.28,38.3,0.2345,23,65
-b63ea3f7a57ae099,2026-10-17,Stars Above (The Lunar Chronicles #4.5),Young Adult,45.69,37.129999999999995,0.2305,17,54
-dd047728de72ad62,2026-10-17,The Artist's Way: A Spiritual Path to Higher Creativity,Nonfiction,40.32,32.84,0.2278,39,110
-6fe02600f322a0a9,2026-10-17,"Hawkeye, Vol. 1: My Life as a Weapon (Hawkeye #1)",Sequential Art,45.44,37.09,0.2251,22,75
-cb65e49993db9a93,2026-10-17,Notes from a Small Island (Notes From a Small Island #1),Nonfiction,40.11,32.84,0.2214,40,110
-b6ee99bcf06fc91f,2026-10-17,"Lumberjanes, Vol. 1: Beware the Kitten Holy (Lumberjanes #1-4)",Sequential Art,44.69,37.09,0.2049,23,75
-63343e287971bb0c,2026-10-17,A Paris Apartment,Historical Fiction,39.1,32.54,0.2016,8,26
-3e42ac0f4d43320f,2026-10-17,The New Guy (and Other Senior Year Distractions),Young Adult,44.28,37.129999999999995,0.1926,18,54
-0ce8075fab4a2b5b,2026-10-17,Legend (Legend #1),Young Adult,44.01,37.129999999999995,0.1853,19,54
-b69c852e7e3956af,2026-10-17,When Breath Becomes Air,Nonfiction,38.92,32.84,0.1851,41,110
-860318b8e244f39c,2026-10-17,Black Flags: The Rise of ISIS,Nonfiction,38.92,32.84,0.1851,41,110
-a2475a245c9907c4,2026-10-17,Smarter Faster Better: The Secrets of Being Productive in Life and Business,Nonfiction,38.77,32.84,0.1806,43,110
-6a57286a8890d8c5,2026-10-17,The Jazz of Physics: The Secret Link Between Music and the Structure of the Universe,Nonfiction,38.73,32.84,0.1794,44,110
-9707989a439757b4,2026-10-17,Prodigy: The Graphic Novel (Legend: The Graphic Novel #2),Sequential Art,43.53,37.09,0.1736,24,75
-2ac720f76384c57e,2026-10-17,"Skip Beat!, Vol. 01 (Skip Beat! #1)",Sequential Art,43.17,37.09,0.1639,25,75
-d250657f0ebc5d73,2026-10-17,The Bourne Identity (Jason Bourne #1),Fiction,44.5,38.3,0.1619,24,65
-44a10f1ac8ce822e,2026-10-17,Whole Lotta Creativity Going On: 60 Fun and Unusual Exercises to Awaken and Strengthen Your Creativity,Nonfiction,38.11,32.84,0.1605,45,110
-0baf71623648413a,2026-10-17,The Name of God is Mercy,Nonfiction,38.06,32.84,0.159,46,110
-984b3b6e7479b571,2026-10-17,Golden (Heart of Dread #3),Young Adult,42.99,37.129999999999995,0.1578,20,54
-9287e238d7c3b06e,2026-10-17,The House by the Lake,Historical Fiction,37.53,32.54,0.1533,9,26
-16ef91b9d827859c,2026-10-17,Buying In: The Secret Dialogue Between What We Buy and Who We Are,Nonfiction,37.86,32.84,0.1529,47,110
-fe7210553d56c097,2026-10-17,The Expatriates,Fiction,44.14,38.3,0.1525,25,65
+49b24c6a41b82bd2,2026-10-18,Boar Island (Anna Pigeon #19),Mystery,59.7,25.064999999999998,1.3818,1,32
+b0913e67d38d5ed5,2026-10-18,The No. 1 Ladies' Detective Agency (No. 1 Ladies' Detective Agency #1),Mystery,58.09,25.064999999999998,1.3176,2,32
+3bc89353f7e3a3cc,2026-10-18,The Last Mile (Amos Decker #2),Mystery,56.54,25.064999999999998,1.2557,3,32
+e7fe3bf2768602cf,2026-10-18,Murder at the 42nd Street Library (Raymond Ambler #1),Mystery,55.85,25.064999999999998,1.2282,4,32
+5ee94540d0749ea0,2026-10-18,The Past Never Ends,Mystery,52.61,25.064999999999998,1.0989,5,32
+20789fb17b423c4c,2026-10-18,The Bachelor Girl's Guide to Murder (Herringford and Watts Mysteries #1),Mystery,52.49,25.064999999999998,1.0942,6,32
+f684a82adc49f011,2026-10-18,1st to Die (Women's Murder Club #1),Mystery,52.07,25.064999999999998,1.0774,7,32
+4416c474713ec1f5,2026-10-18,A Time of Torment (Charlie Parker #14),Mystery,49.95,25.064999999999998,0.9928,8,32
+e00eb4fd7b871a48,2026-10-18,Sharp Objects,Mystery,47.86,25.064999999999998,0.9094,9,32
+60376aa71be66083,2026-10-18,The Man Who Mistook His Wife for a Hat and Other Clinical Tales,Nonfiction,62.1,32.82,0.8921,1,110
+54fc03f1e1d355db,2026-10-18,The Diary of a Young Girl,Nonfiction,59.91,32.82,0.8254,2,110
+04e3de7ac35ec5cd,2026-10-18,Between the World and Me,Nonfiction,58.26,32.82,0.7751,3,110
+7980fa06f2b704d8,2026-10-18,"Miracles from Heaven: A Little Girl, Her Journey to Heaven, and Her Amazing Story of Healing",Nonfiction,57.74,32.82,0.7593,4,110
+3a6fb983e2554023,2026-10-18,A Flight of Arrows (The Pathfinders #2),Historical Fiction,57.13,32.489999999999995,0.7584,1,26
+a30b270e25489e5c,2026-10-18,The Electric Pencil: Drawings from Inside State Hospital No. 3,Nonfiction,57.41,32.82,0.7492,5,110
+b6d3f4f4ee1f6069,2026-10-18,H is for Hawk,Nonfiction,57.07,32.82,0.7389,6,110
+da0349a87c8caa2f,2026-10-18,Are We Smart Enough to Know How Smart Animals Are?,Nonfiction,56.9,32.82,0.7337,7,110
+15ebd83e53d0391b,2026-10-18,Being Mortal: Medicine and What Matters in the End,Nonfiction,56.87,32.82,0.7328,8,110
+cf1aa2fc02a7d1e0,2026-10-18,Abstract City,Nonfiction,56.32,32.82,0.716,9,110
+311c0dd0e354a33e,2026-10-18,Everydata: The Misinformation Hidden in the Little Data You Consume Every Day,Nonfiction,55.99,32.82,0.706,10,110
+0268f149d014b389,2026-10-18,Travels with Charley: In Search of America,Nonfiction,55.17,32.82,0.681,11,110
+476c7972e9b41891,2026-10-18,The Last Painting of Sara de Vos,Historical Fiction,54.54,32.489999999999995,0.6787,2,26
+b830685072fa871f,2026-10-18,"Unstuffed: Decluttering Your Home, Mind, and Soul",Nonfiction,54.97,32.82,0.6749,12,110
+90fa61229261140a,2026-10-18,Tipping the Velvet,Historical Fiction,53.93,32.489999999999995,0.6599,3,26
+c7b5183f4d1d4efe,2026-10-18,The Murder of Roger Ackroyd (Hercule Poirot #4),Mystery,40.95,25.064999999999998,0.6338,10,32
+dd003e904727281a,2026-10-18,The Exiled,Mystery,40.95,25.064999999999998,0.6338,10,32
+a7c3f1010d64799a,2026-10-18,Into the Wild,Nonfiction,53.35,32.82,0.6255,13,110
+2173a2ce35f6ace1,2026-10-18,"Trespassing Across America: One Man's Epic, Never-Done-Before (and Sort of Illegal) Hike Across the Heartland",Nonfiction,52.88,32.82,0.6112,14,110
+a01f6d368ef64dc5,2026-10-18,"Eaternity: More than 150 Deliciously Easy Vegan Recipes for a Long, Healthy, Satisfied, Joyful Life",Nonfiction,52.8,32.82,0.6088,15,110
+437d8dea9272d0a9,2026-10-18,The Improbability of Love,Fiction,61.14,38.12,0.6039,1,65
+afa829857f82f99e,2026-10-18,Hamilton: The Revolution,Nonfiction,52.43,32.82,0.5975,16,110
+52aa3d79b1cee455,2026-10-18,Very Good Lives: The Fringe Benefits of Failure and the Importance of Imagination,Nonfiction,52.07,32.82,0.5865,17,110
+fd2337c1b73b686e,2026-10-18,Brave Enough,Nonfiction,51.82,32.82,0.5789,18,110
+f08667e4c0458f37,2026-10-18,Spilled Milk: Based on a True Story,Nonfiction,51.68,32.82,0.5746,19,110
+bff270fe9c86a5a9,2026-10-18,Miller's Valley,Fiction,59.98,38.12,0.5735,2,65
+06f6a57a6d532844,2026-10-18,Kitchens of the Great Midwest,Fiction,59.94,38.12,0.5724,3,65
+27c5968fe43cc06e,2026-10-18,El Deafo,Sequential Art,58.65,37.5,0.564,1,75
+df56868afd166557,2026-10-18,"Eat, Pray, Love",Nonfiction,51.32,32.82,0.5637,20,110
+4a0a276409968a73,2026-10-18,The Guernsey Literary and Potato Peel Pie Society,Historical Fiction,50.43,32.489999999999995,0.5522,4,26
+6958de044cb28a84,2026-10-18,In the Woods (Dublin Murder Squad #1),Mystery,38.89,25.064999999999998,0.5516,12,32
+df6a7c43faa6732b,2026-10-18,Future Shock (Future Shock #1),Young Adult,56.73,36.965,0.5347,1,54
+94bb629a3f6dd00b,2026-10-18,Digital Fortress,Fiction,58.19,38.12,0.5265,4,65
+fe0f34ebed689381,2026-10-18,In Cold Blood,Nonfiction,49.46,32.82,0.507,21,110
+759ee7d059b1beb8,2026-10-18,Why Save the Bankers?: And Other Essays on Our Economic and Political Crisis,Nonfiction,49.44,32.82,0.5064,22,110
+91eb9605998a7c03,2026-10-18,"The Sandman, Vol. 3: Dream Country (The Sandman (volumes) #3)",Sequential Art,56.2,37.5,0.4987,2,75
+bfd5e1701c862ac3,2026-10-18,"Ajin: Demi-Human, Volume 1 (Ajin: Demi-Human #1)",Sequential Art,55.65,37.5,0.484,3,75
+41164b8ac02a2c42,2026-10-18,Aristotle and Dante Discover the Secrets of the Universe (Aristotle and Dante Discover the Secrets of the Universe #1),Young Adult,54.74,36.965,0.4809,2,54
+07e6810fd3236bda,2026-10-18,Last One Home (New Beginnings #1),Fiction,56.41,38.12,0.4798,5,65
+de4b403cb629a29f,2026-10-18,Glory over Everything: Beyond The Kitchen House,Historical Fiction,47.97,32.489999999999995,0.4765,5,26
+e77594ece9b9d1fe,2026-10-18,The Alien Club,Young Adult,54.44,36.965,0.4727,3,54
+830fb3967c74866d,2026-10-18,Shtum,Fiction,56.12,38.12,0.4722,6,65
+eb0fe24bbc845ecc,2026-10-18,"Giant Days, Vol. 1 (Giant Days #1-4)",Sequential Art,55.13,37.5,0.4701,4,75
+a80f66b254fe9eb3,2026-10-18,Brain on Fire: My Month of Madness,Nonfiction,48.24,32.82,0.4698,23,110
+4c8b7540409da4ac,2026-10-18,Swell: A Year of Waves,Nonfiction,47.92,32.82,0.4601,24,110
+ad2887ce04583910,2026-10-18,Don't Get Caught,Young Adult,53.92,36.965,0.4587,4,54
+41fc5dce044f16f5,2026-10-18,Girl in the Blue Coat,Historical Fiction,47.35,32.489999999999995,0.4574,6,26
+5faefdc861684eb1,2026-10-18,"The Sandman, Vol. 1: Preludes and Nocturnes (The Sandman (volumes) #1)",Sequential Art,54.51,37.5,0.4536,5,75
+97b8f130d32e9f4e,2026-10-18,Girl Online On Tour (Girl Online #2),Young Adult,53.61,36.965,0.4503,5,54
+edb3097e71330040,2026-10-18,Finders Keepers (Bill Hodges Trilogy #2),Fiction,55.25,38.12,0.4494,7,65
+c6ca293d4810e0d5,2026-10-18,The Dinner Party,Fiction,55.22,38.12,0.4486,8,65
+ff6bb30dd0c482a6,2026-10-18,The Husband's Secret,Fiction,55.2,38.12,0.4481,9,65
+db84624b151cbe06,2026-10-18,No Love Allowed (Dodge Cove #1),Young Adult,52.93,36.965,0.4319,6,54
+1c0a38899c82b60a,2026-10-18,"Death Note, Vol. 5: Whiteout (Death Note #5)",Sequential Art,53.54,37.5,0.4277,6,75
+1c89ae5bb804e4de,2026-10-18,I am a Hero Omnibus Volume 1,Sequential Art,53.53,37.5,0.4275,7,75
+16e843e6b853cc2f,2026-10-18,Lady Renegades (Rebel Belle #3),Young Adult,52.53,36.965,0.4211,7,54
+09b6cc87e62c2c58,2026-10-18,Danganronpa Volume 1,Sequential Art,52.82,37.5,0.4085,8,75
+e2e7b683b4c15b7d,2026-10-18,Catching Jordan (Hundred Oaks),Young Adult,52.05,36.965,0.4081,8,54
+92275cedf6d8ee15,2026-10-18,"We Are Robin, Vol. 1: The Vigilante Business (We Are Robin #1)",Sequential Art,52.74,37.5,0.4064,9,75
+4f283dfcbeccc0d4,2026-10-18,The High Mountains of Portugal,Fiction,53.49,38.12,0.4032,10,65
+3b1c02bac2a429e6,2026-10-18,Scott Pilgrim's Precious Little Life (Scott Pilgrim #1),Sequential Art,52.47,37.5,0.3992,10,75
+a10c7515834240f3,2026-10-18,Lowriders to the Center of the Earth (Lowriders in Space #2),Sequential Art,52.43,37.5,0.3981,11,75
+c039f5aceb093537,2026-10-18,Most Wanted,Mystery,34.98,25.064999999999998,0.3956,13,32
+746029796363aa51,2026-10-18,Nightstruck: A Novel,Young Adult,51.59,36.965,0.3956,9,54
+276dc716b1da8899,2026-10-18,"The Sandman, Vol. 2: The Doll's House (The Sandman (volumes) #2)",Sequential Art,52.26,37.5,0.3936,12,75
+8d455c7539795d2a,2026-10-18,"We Love You, Charlie Freeman",Fiction,52.85,38.12,0.3864,11,65
+d01ac97e2b8947c2,2026-10-18,The Murder That Never Was (Forensic Instincts #5),Fiction,52.85,38.12,0.3864,11,65
+0651062381f0636a,2026-10-18,The Regional Office Is Under Attack!,Fiction,52.82,38.12,0.3856,13,65
+c82a3e358c773c73,2026-10-18,"Rat Queens, Vol. 3: Demons (Rat Queens (Collected Editions) #11-15)",Sequential Art,51.92,37.5,0.3845,13,75
+d170b5a0da46380e,2026-10-18,"Unseen City: The Majesty of Pigeons, the Discreet Charm of Snails & Other Wonders of the Urban Wilderness",Nonfiction,45.41,32.82,0.3836,25,110
+4e78f06160b717ac,2026-10-18,Finding God in the Ruins: How God Redeems Pain,Nonfiction,45.28,32.82,0.3796,26,110
+2e40333991f56f45,2026-10-18,For the Love: Fighting for Grace in a World of Impossible Standards,Nonfiction,45.24,32.82,0.3784,27,110
+2a1b3d967cda1da2,2026-10-18,Tell the Wolves I'm Home,Young Adult,50.24,36.965,0.3591,10,54
+c65c25d990fc7025,2026-10-18,"Exit, Pursued by a Bear",Young Adult,49.99,36.965,0.3524,11,54
+081305e6df719dff,2026-10-18,The Testament of Mary,Fiction,51.47,38.12,0.3502,14,65
+8fff1084aa085a13,2026-10-18,"Fruits Basket, Vol. 4 (Fruits Basket #4)",Sequential Art,50.43,37.5,0.3448,14,75
+ffdc825785c0ede8,2026-10-18,Art Ops Vol. 1,Sequential Art,49.67,37.5,0.3245,15,75
+c5f91eb481427dc5,2026-10-18,When I'm Gone,Fiction,50.39,38.12,0.3219,15,65
+ba54932df84e8cea,2026-10-18,Library of Souls (Miss Peregrine’s Peculiar Children #3),Young Adult,48.75,36.965,0.3188,12,54
+1246e4ffeb5ac4ea,2026-10-18,Let's Pretend This Never Happened: A Mostly True Memoir,Nonfiction,43.19,32.82,0.316,28,110
+6514add13c82b115,2026-10-18,The Tumor,Nonfiction,43.12,32.82,0.3138,29,110
+89cad3f37c9ce226,2026-10-18,"Rise of the Rocket Girls: The Women Who Propelled Us, from Missiles to the Moon to Mars",Nonfiction,43.01,32.82,0.3105,30,110
+c6a29d6df8de968c,2026-10-18,Furiously Happy: A Funny Book About Horrible Things,Nonfiction,43.0,32.82,0.3102,31,110
+c9782ad2a0ed9331,2026-10-18,Crazy Rich Asians (Crazy Rich Asians #1),Fiction,49.94,38.12,0.3101,16,65
+87b0615b6e1f4d7b,2026-10-18,Spark Joy: An Illustrated Master Class on the Art of Organizing and Tidying Up,Nonfiction,42.68,32.82,0.3004,32,110
+8ec14b1576cb7cb5,2026-10-18,The Power of Now: A Guide to Spiritual Enlightenment,Nonfiction,42.67,32.82,0.3001,33,110
+85b2176b3b194030,2026-10-18,Robin War,Sequential Art,48.73,37.5,0.2995,16,75
+45045146dbf7b009,2026-10-18,Isla and the Happily Ever After (Anna and the French Kiss #3),Young Adult,47.91,36.965,0.2961,13,54
+460089f796fb3f82,2026-10-18,"Lumberjanes, Vol. 2: Friendship to the Max (Lumberjanes #5-8)",Sequential Art,48.45,37.5,0.292,17,75
+aba2db9afb1469c7,2026-10-18,Until Friday Night (The Field Party #1),Young Adult,47.71,36.965,0.2907,14,54
+8ceb5c6aed2c5f8b,2026-10-18,While You Were Mine,Historical Fiction,41.85,32.489999999999995,0.2881,7,26
+a9d7b75461084a26,2026-10-18,11/22/63,Fiction,49.01,38.12,0.2857,17,65
+6957f44c3847a760,2026-10-18,Soumission,Fiction,49.0,38.12,0.2854,18,65
+dac4b5847454fd9b,2026-10-18,Memoirs of a Geisha,Fiction,48.99,38.12,0.2852,19,65
+384c7d41d5ffe9d1,2026-10-18,"Girl, Interrupted",Nonfiction,42.16,32.82,0.2846,34,110
+53a3d11bb568cc8b,2026-10-18,"Saga, Volume 5 (Saga (Collected Editions) #5)",Sequential Art,48.0,37.5,0.28,18,75
+e75f3ae1da1cc652,2026-10-18,"Will Grayson, Will Grayson (Will Grayson, Will Grayson)",Young Adult,46.66,36.965,0.2623,15,54
+d4a29356fc992879,2026-10-18,It's Never Too Late to Begin Again: Discovering Creativity and Meaning at Midlife and Beyond,Nonfiction,41.41,32.82,0.2617,35,110
+4c28def39d850cdf,2026-10-18,Worlds Elsewhere: Journeys Around Shakespeare’s Globe,Nonfiction,41.22,32.82,0.2559,36,110
+b12b89017878a60d,2026-10-18,Private Paris (Private #10),Fiction,47.84,38.12,0.255,20,65
+cedf82b5086e4691,2026-10-18,The Natural History of Us (The Fine Art of Pretending #2),Young Adult,46.39,36.965,0.255,16,54
+34c0d7c4ee5650af,2026-10-18,The Year of Magical Thinking,Nonfiction,41.11,32.82,0.2526,37,110
+11809b1d323b3057,2026-10-18,orange: The Complete Collection 1 (orange: The Complete Collection #1),Sequential Art,46.97,37.5,0.2525,19,75
+ad84f18659e6bfe2,2026-10-18,The Firm,Fiction,47.71,38.12,0.2516,21,65
+bbf1ea50be8008ab,2026-10-18,I Will Find You,Nonfiction,41.04,32.82,0.2505,38,110
+15f415d436888b2d,2026-10-18,"Black Butler, Vol. 1 (Black Butler #1)",Sequential Art,46.62,37.5,0.2432,20,75
+a0dd11f6abc421ec,2026-10-18,Jurassic Park (Jurassic Park #1),Fiction,47.28,38.12,0.2403,22,65
+3cdca3b4a93980f5,2026-10-18,"Rat Queens, Vol. 1: Sass & Sorcery (Rat Queens (Collected Editions) #1-5)",Sequential Art,46.38,37.5,0.2368,21,75
+ce1ae197ada2aec4,2026-10-18,The Silent Sister (Riley MacPherson #1),Fiction,47.14,38.12,0.2366,23,65
+6fe02600f322a0a9,2026-10-18,"Hawkeye, Vol. 1: My Life as a Weapon (Hawkeye #1)",Sequential Art,46.25,37.5,0.2333,22,75
+63343e287971bb0c,2026-10-18,A Paris Apartment,Historical Fiction,39.67,32.489999999999995,0.221,8,26
+b63ea3f7a57ae099,2026-10-18,Stars Above (The Lunar Chronicles #4.5),Young Adult,45.09,36.965,0.2198,17,54
+860318b8e244f39c,2026-10-18,Black Flags: The Rise of ISIS,Nonfiction,40.01,32.82,0.2191,39,110
+cb65e49993db9a93,2026-10-18,Notes from a Small Island (Notes From a Small Island #1),Nonfiction,39.81,32.82,0.213,40,110
+dd047728de72ad62,2026-10-18,The Artist's Way: A Spiritual Path to Higher Creativity,Nonfiction,39.73,32.82,0.2105,41,110
+0ce8075fab4a2b5b,2026-10-18,Legend (Legend #1),Young Adult,43.93,36.965,0.1884,18,54
+b69c852e7e3956af,2026-10-18,When Breath Becomes Air,Nonfiction,38.9,32.82,0.1853,42,110
+b6ee99bcf06fc91f,2026-10-18,"Lumberjanes, Vol. 1: Beware the Kitten Holy (Lumberjanes #1-4)",Sequential Art,44.33,37.5,0.1821,23,75
+3e42ac0f4d43320f,2026-10-18,The New Guy (and Other Senior Year Distractions),Young Adult,43.52,36.965,0.1773,19,54
+44a10f1ac8ce822e,2026-10-18,Whole Lotta Creativity Going On: 60 Fun and Unusual Exercises to Awaken and Strengthen Your Creativity,Nonfiction,38.55,32.82,0.1746,43,110
+9707989a439757b4,2026-10-18,Prodigy: The Graphic Novel (Legend: The Graphic Novel #2),Sequential Art,43.77,37.5,0.1672,24,75
+a2475a245c9907c4,2026-10-18,Smarter Faster Better: The Secrets of Being Productive in Life and Business,Nonfiction,38.29,32.82,0.1667,44,110
+469508882dfc1991,2026-10-18,Lies and Other Acts of Love,Fiction,44.36,38.12,0.1637,24,65
+e6635f5b0a2c78db,2026-10-18,The Invention of Wings,Historical Fiction,37.7,32.489999999999995,0.1604,9,26
+d250657f0ebc5d73,2026-10-18,The Bourne Identity (Jason Bourne #1),Fiction,44.09,38.12,0.1566,25,65
+6a57286a8890d8c5,2026-10-18,The Jazz of Physics: The Secret Link Between Music and the Structure of the Universe,Nonfiction,37.88,32.82,0.1542,45,110
+0baf71623648413a,2026-10-18,The Name of God is Mercy,Nonfiction,37.78,32.82,0.1511,46,110
